@@ -1,8 +1,10 @@
+import {SpaceShips} from "./components";
+
 const App = () => {
   return (
-    <div className="App">
-
-    </div>
+      <div className="App">
+        <SpaceShips/>
+      </div>
   );
 }
 

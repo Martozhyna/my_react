@@ -1,0 +1,10 @@
+body{
+    background: linear-gradient(#020c16, #034aa2, #037db2);
+}
+
+.launches{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
