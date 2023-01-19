@@ -1,0 +1,12 @@
+.simpson{
+    width: 30%;
+    border: 2px solid #c98403;
+    margin: 10px;
+    background: #fec357;
+    color: #2c2000;
+
+}
+.simpson > img{
+    width: 150px;
+    height: 250px;
+}

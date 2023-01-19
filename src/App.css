@@ -1,1 +1,12 @@
-
+body{
+    background: lightcyan;
+}
+.App{
+    text-align: center;
+}
+.characters{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
