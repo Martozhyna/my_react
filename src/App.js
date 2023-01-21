@@ -1,9 +1,12 @@
-const App = () => {
-  return (
-    <div className="App">
+import {Users} from "./components";
 
-    </div>
-  );
+const App = () => {
+    return (
+        <div className="App">
+            <Users/>
+
+        </div>
+    );
 }
 
 export {App};
