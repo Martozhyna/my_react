@@ -8,7 +8,7 @@ function SpaceShips () {
     const [ships, setShips] = useState([]);
 
     useEffect(() => {
-        spaceShipService.getAll().then(({data}) => data.filter(launche => launche.launch_year != 2020)).then(launches => setShips([...launches]));
+        spaceShipService.getAll().then(value => setShips(value.data.filter(value => value.launch_year !== 2020)));
     },[])
     return (
         <div className={'launches'}>
