@@ -1,0 +1,12 @@
+.commentName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.commentName > input{
+    font-size: 30px;
+    border-radius: 10px;
+}
