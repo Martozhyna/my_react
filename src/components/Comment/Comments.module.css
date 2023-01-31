@@ -1,0 +1,26 @@
+.comment{
+    text-align: center;
+    width: 30%;
+    border-radius: 20px;
+    border: 2px solid #e2939f;
+    margin: 10px;
+    background: #f3b4bf;
+}
+
+.comment > button{
+    font-size: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #e293a3;
+    background: #f3b4bf;
+    color: snow;
+    font-family: Comic Sans MS, serif;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.comment > button:hover{
+    font-size: 40px;
+    color:#e293a3 ;
+
+}

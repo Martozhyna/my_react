@@ -1,0 +1,9 @@
+.post{
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #e2939f;
+    background: #f3b4bf;
+    color: snow;
+}
