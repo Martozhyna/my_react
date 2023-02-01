@@ -22,6 +22,7 @@ function CarForm ({setCars,updateCar}) {
             const {data} = await carService.updateById(updateCar.id, car);
             setCars(prev => [...prev]);
             reset();
+
         } else {
             const {data} = await carService.create(car);
             setCars(prev => [...prev, data]);
