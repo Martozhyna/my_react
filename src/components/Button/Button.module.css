@@ -1,0 +1,18 @@
+.Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightcyan;
+    width: 60px;
+    height: 20px;
+    color: #112D32;
+    margin: 20px;
+}
+
+.Button:hover{
+    background: #e2929e;
+    color: snow;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}

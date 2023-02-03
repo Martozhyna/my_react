@@ -6,3 +6,4 @@ export * from './Todo/Todo';
 export * from './Albums/Albums';
 export * from './Album/Album';
 export * from './PostDetail/PostDetail';
+export * from './Button/Button';
