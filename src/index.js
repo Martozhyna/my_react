@@ -4,14 +4,19 @@ import {BrowserRouter} from "react-router-dom";
 
 import './index.css';
 import {App} from './App';
+import {StateProvider} from "./hoc/StateProvider";
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <BrowserRouter>
-        <App />
-    </BrowserRouter>
+    <StateProvider>
+
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+
+    </StateProvider>
 
 );
 
