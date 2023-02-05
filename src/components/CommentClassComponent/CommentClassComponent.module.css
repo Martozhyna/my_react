@@ -1,0 +1,16 @@
+.comment{
+    text-align: center;
+    width: 18%;
+    margin: 10px;
+    background: #8fbdb1;
+    border: 2px solid #4c5534;
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+}
+
+.comment:hover{
+    background: #7fb69d;
+    cursor: pointer;
+    box-shadow: rgba(80, 113, 69, 0.35) 0 5px 15px;
+    border: none;
+}

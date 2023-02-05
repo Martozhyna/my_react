@@ -1,0 +1,13 @@
+.header > h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.comments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
