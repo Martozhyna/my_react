@@ -1,0 +1,21 @@
+.Header{
+    min-height: 100px;
+    background-color: #f3b4bf;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Header a{
+    text-decoration: none;
+    color: snow;
+    font-size: 25px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    font-family: Comic Sans MS, serif;
+}
+
+.Header a[class='active']{
+    font-size: 30px;
+    color: #e2929e;
+}
