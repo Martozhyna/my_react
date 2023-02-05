@@ -1,0 +1,16 @@
+.post{
+    text-align: center;
+    width: 18%;
+    margin: 10px;
+    background: #8fbd96;
+    border: 2px solid #554c34;
+    box-sizing: border-box;
+    transition: all 0.3s ease 0s;
+}
+
+.post:hover{
+    background: #77a17f;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 5px #658b6c;
+    border: none;
+}
