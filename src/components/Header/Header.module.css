@@ -1,0 +1,12 @@
+.Header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards{
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: lightblue;
+}

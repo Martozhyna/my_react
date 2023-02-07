@@ -1,0 +1,23 @@
+.Post{
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: lightblue;
+    color: white;
+}
+
+.Post > button{
+    margin: 10px;
+    font-size: 30px;
+    border: 2px solid #588999;
+    border-radius: 10px;
+    background: lightblue;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.Post > button:hover{
+    font-size: 35px;
+    background: #588999;
+    cursor: pointer;
+}
