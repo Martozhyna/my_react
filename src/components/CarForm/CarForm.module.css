@@ -1,0 +1,38 @@
+.form {
+    font-size: 25px;
+    border: 2px solid #5B42F3;
+    border-radius: 10px;
+    margin: 10px;
+    background: rgb(5, 6, 45);
+    color: white;
+    transition-duration: 0.4s;
+}
+
+
+.form:focus{
+    background: #5B42F3;
+    border: 2px solid #00DDEB;
+
+}
+
+.form:hover{
+    font-size: 30px;
+    border: 2px solid #00DDEB;
+}
+
+.button{
+    font-size: 25px;
+    margin: 5px;
+    background: #5B42F3;
+    border: 3px solid #AF40FF;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: snow;
+}
+
+.button:hover{
+    font-size: 30px;
+    background: rgb(5, 6, 45);
+    border: 2px solid #00DDEB;
+}
